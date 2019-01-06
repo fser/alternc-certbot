@@ -27,7 +27,7 @@ package:
 		--license GPLv3 \
 		--category admin \
 		--architecture all \
-		--depends "apt-utils, debconf, alternc (>= 3.5.0~rc1), alternc-ssl, certbot, certbot" \
+		--depends "apt-utils, debconf, alternc (>= 3.5.0~rc1), alternc-ssl, certbot" \
 		--after-install "debian/postinst" \
 		--after-remove  "debian/postrm" \
 		--chdir src \
